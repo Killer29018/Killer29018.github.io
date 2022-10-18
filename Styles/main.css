@@ -1,0 +1,14 @@
+#Title {
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #D0D0D0;
+    background-color: #1f1f1f;
+
+    text-align: center;
+    line-height: 0.5;
+    font-size: 20px;
+}
