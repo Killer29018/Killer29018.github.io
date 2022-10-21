@@ -1,27 +1,101 @@
-body {
-    margin: 0;
+html {
+    scroll-behavior: smooth;
 }
 
-#Header {
-    background-image: url('../assets/images/images.jpg');
+body {
+    margin: 0;
+
+    color: #D0D0D0;
+    background-color: #1f1f1f;
+
+    user-select: none;
+}
+
+#Section0 {
+    background-image: url('../assets/images/Background.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 500px;
+    height: 100vh;
     position: relative;
 }
 
-#Title {
+.Section0 #Title {
     position: absolute;
 
     left: 50%;
-    top: 20%;
+    top: 50%;
     transform: translate(-50%, -50%);
 
-    color: #D0D0D0;
     background-color: #1f1f1f;
 
     text-align: center;
     line-height: 0.5;
     font-size: 1.5vw;
+    width: max-content;
+}
+
+#Section1 {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
+
+.Section1 #Title {
+    width:100%;
+
+    text-align:center;
+    font-size: 1.0vw;
+
+    margin: 0;
+    background-color: #00AAFF;
+    color: #202020;
+}
+
+.Section1 #Title > h1 {
+    margin: 0;
+}
+
+.Section1 #Navigation {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    position: relative;
+
+    justify-content: space-between;
+    text-align: justify;
+
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.Section1 #Navigation > button {
+    display: inline-block;
+    position: relative;
+    width: calc(100% / 3);
+
+    height: 50vh;
+    line-height:50vh;
+
+    top: 50%;
+    transform: translate(0, -50%);
+
+    margin: 1vh 1vw;
+    font-size: 8vw;
+
+    text-align: center;
+
+    background-color: #2F2F2F;
+    color: #F0F0F0;
+    border-radius: 2vw;
+
+    transition-duration: 0.4s;
+}
+
+.Section1 #Navigation > button:hover {
+    background-color: #4F4F4F;
+    /* box-shadow: 12px 16px 0 #101010, 0 17px 50px 0 #080808; */
+    box-shadow: 12px 16px 0 #1A1A1A;
+    box-shadow: 0 17px 30px 0 #121212;
 }
