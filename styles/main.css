@@ -21,8 +21,25 @@ body {
 
 .Section {
     height: 100vh;
-    position: absolute;
+    position: relative;
     width: 100%;
+}
+
+.Header {
+    width:100%;
+
+    text-align:center;
+
+    margin: 0;
+
+    background-color: #00AAFF;
+    color: #202020;
+}
+
+.Header > h1 {
+    margin: 0;
+
+    font-size: 4vw;
 }
 
 /* Section 0 */
@@ -46,28 +63,12 @@ body {
     line-height: 0.5;
     font-size: 1.5vw;
     width: max-content;
+
+    padding: 0px 10px;
 }
 
 /* Section 1 */
 #Section1 {
-    top: 100vh;
-}
-
-.Section1 #Header {
-    width:100%;
-
-    text-align:center;
-
-    margin: 0;
-
-    background-color: #00AAFF;
-    color: #202020;
-}
-
-.Section1 #Header > h1 {
-    margin: 0;
-
-    font-size: 4vw;
 }
 
 .Section1 #Navigation {
@@ -116,22 +117,12 @@ body {
 
 /* Section 2 */
 #Section2 {
-    top: 200vh;
 }
 
-.Section2 #Header {
-    width:100%;
-
-    text-align:center;
-
-    margin: 0;
-
-    background-color: #00AAFF;
-    color: #202020;
+/* Section 3 */
+#Section3 {
 }
 
-.Section2 #Header > h1 {
-    margin: 0;
-
-    font-size: 4vw;
+/* Section 4 */
+#Section4 {
 }
