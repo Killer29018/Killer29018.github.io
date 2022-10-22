@@ -11,6 +11,15 @@ body {
     user-select: none;
 }
 
+.Text {
+    background: #1f1f1f;
+    text-align: center;
+    font-size: 1vw;
+
+    color: #D0D0D0;
+}
+
+/* Section 0 */
 #Section0 {
     background-image: url('../assets/images/Background.png');
     background-repeat: no-repeat;
@@ -27,38 +36,39 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
 
-    background-color: #1f1f1f;
-
-    text-align: center;
     line-height: 0.5;
     font-size: 1.5vw;
     width: max-content;
 }
 
+/* Section 1 */
 #Section1 {
     position: absolute;
-    top: 100%;
+    top: 100vh;
     width: 100%;
+    height: 100vh;
 }
 
-.Section1 #Title {
+.Section1 #Header {
     width:100%;
 
     text-align:center;
-    font-size: 1.0vw;
 
     margin: 0;
+
     background-color: #00AAFF;
     color: #202020;
 }
 
-.Section1 #Title > h1 {
+.Section1 #Header > h1 {
     margin: 0;
+
+    font-size: 4vw;
 }
 
 .Section1 #Navigation {
-    height: 100vh;
     width: 100%;
+    height: calc(100vh - 8vw);
 
     display: flex;
     position: relative;
