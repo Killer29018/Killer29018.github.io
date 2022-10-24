@@ -133,7 +133,7 @@ body {
 .Section_Projects #ProjectsData > div {
     height: min-content;
 
-    width: calc((100vw / 4) - 20px);
+    width: calc((100vw / 4) - 25px);
 
     margin: 10px 10px;
 
