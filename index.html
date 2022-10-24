@@ -5,44 +5,54 @@
         <meta name="viewport" contents="width=device-width, initial-scale=1.0"/>
 
         <script src="js/main.js"></script>
+        <script src="js/projects.js"></script>
         <link rel="stylesheet" href="styles/main.css">
+
+        <!-- <script type="text/javascript"> -->
+        <!--     window.onload = populateProjects(); -->
+        <!-- </script> -->
     </head>
 
     <body>
         <div id="Contents">
-            <div id="Section0" class="Section0">
-                <div id="Title" class="Section0 Text">
+            <div id="Section_Start" class="Section_Start">
+                <div id="Title" class="Section_Start Text">
                     <h1><strong>Aaron Danton</strong></h1>
                     <h1><strong>18, College Student at The Henley College</strong></h1>
                 </div>
             </div>
 
-            <div id="Section1" class="Section1 Section">
-                <div id="Header" class="Section1 Text Header">
-                    <h1><strong>SECTIONS</strong></h1>
-                </div>
-                <div id="Navigation" class="Section1 Section">
-                    <button type="button" onclick="scrollToID('Section2')">About</button>
-                    <button type="button" onclick="scrollToID('Section3')">Projects</button>
-                    <button type="button" onclick="scrollToID('Section4')">Skills</button>
-                </div>
-            </div>
 
-            <div id="Section2" class="Section2 Section">
-                <div id="Header" class="Section2 Text Header">
-                    <h1><strong>ABOUT</strong></h1>
-                </div>
-            </div>
+            <!-- Sections -->
+            <!-- <div id="Section1" class="Section1 Section"> -->
+            <!--     <div id="Header" class="Section1 Text Header"> -->
+            <!--         <h1><strong>SECTIONS</strong></h1> -->
+            <!--     </div> -->
+            <!--     <div id="Navigation" class="Section1 Section"> -->
+            <!--         <button type="button" onclick="scrollToID('Section2')">About</button> -->
+            <!--         <button type="button" onclick="scrollToID('Section3')">Projects</button> -->
+            <!--     </div> -->
+            <!-- </div> -->
 
-            <div id="Section3" class="Section3 Section">
-                <div id="Header" class="Section3 Text Header">
+            <!-- Projects -->
+            <div id="Section_Projects" class="Section_Projects Section">
+                <div id="Header" class="Section_Projects Text Header">
                     <h1><strong>PROJECTS</strong></h1>
                 </div>
+
+                <div id="ProjectsData" class="Section_Projects">
+                    <!-- <div onclick="redirect('https://github.com/killer29018')"> -->
+                    <!--     <div id="Name">Image</div> -->
+                    <!--     <img src="assets/images/Background.png"> -->
+                    <!--     <div id="Desc">Desc</div> -->
+                    <!-- </div> -->
+                </div>
             </div>
 
-            <div id="Section4" class="Section4 Section">
-                <div id="Header" class="Section4 Text Header">
-                    <h1><strong>SKILLS</strong></h1>
+            <!-- About -->
+            <div id="Section_About" class="Section_About Section">
+                <div id="Header" class="Section_About Text Header">
+                    <h1><strong>ABOUT</strong></h1>
                 </div>
             </div>
         </div>
